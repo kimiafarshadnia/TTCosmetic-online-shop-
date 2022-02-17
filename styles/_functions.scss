@@ -1,0 +1,54 @@
+@mixin cardsSectionOne {
+  height: 10rem;
+}
+
+@mixin buttonoutlinewhite {
+  border: 2px solid white;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 14px;
+}
+
+@mixin typeCosmetic($background) {
+  background-image: $background;
+  background-position: center;
+  background-size: cover;
+  height: 15rem;
+  padding-top: 5rem;
+}
+
+@mixin groupButtons {
+  border: 2px solid $peach-color;
+  background-color: transparent;
+  color: $peach-color;
+  width: 8rem;
+}
+
+@mixin bgSection4($background) {
+  background-image: $background;
+  background-position: center;
+  background-size: cover;
+  height: 17rem;
+  padding-top: 5rem;
+}
+
+@mixin inputStyle {
+  background-color: white;
+  border: 2px solid $peach-color;
+  padding: 0.5rem 2rem;
+}
+
+@mixin btnupdate {
+  border: 1px solid $peach-color;
+  color: #ffffff;
+  background-color: $peach-color;
+  padding: 0 1.5rem;
+}
+
+@mixin bgUpdateSection {
+  background-image: url("../images/getupdate.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 18rem;
+}

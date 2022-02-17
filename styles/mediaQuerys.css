@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+  .bg-opacity {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .bg-opacity {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .bg-opacity {
+    width: 100%;
+  }
+}

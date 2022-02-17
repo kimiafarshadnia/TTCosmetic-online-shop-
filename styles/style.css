@@ -1,0 +1,127 @@
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none;
+}
+
+.matique-color {
+  color: #fadcd9;
+}
+
+.mybg {
+  background-image: url("../images/mybg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+}
+
+.bg-opacity {
+  width: 45%;
+  background-color: rgba(255, 255, 255, 0.761);
+}
+
+.bg-cream {
+  background-image: url(../images/cream.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 15rem;
+  padding-top: 5rem;
+}
+
+.bg-makeup {
+  background-image: url(../images/makeup.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 15rem;
+  padding-top: 5rem;
+}
+
+.bg-skincare {
+  background-image: url(../images/skincare.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 15rem;
+  padding-top: 5rem;
+}
+
+.btnsCard {
+  border: 2px solid white;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 14px;
+}
+
+.btnsCard:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.gp-btn {
+  border: 2px solid #f79489;
+  background-color: transparent;
+  color: #f79489;
+  width: 8rem;
+}
+
+.gp-btn:hover {
+  background-color: #fadcd9;
+  color: #f79489;
+  border-color: #fadcd9;
+}
+
+.active-btn {
+  background-color: #f79489;
+  color: #ffffff;
+}
+
+.peach-color {
+  color: #f79489;
+}
+
+.bg-bodylotion {
+  background-image: url(../images/bodylotion.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 17rem;
+  padding-top: 5rem;
+}
+
+.bg-whitecream {
+  background-image: url(../images/whitecream.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 17rem;
+  padding-top: 5rem;
+}
+
+.input-style {
+  background-color: white;
+  border: 2px solid #f79489;
+  padding: 0.5rem 2rem;
+}
+
+.btn-sub-gp {
+  border: 1px solid #f79489;
+  color: #ffffff;
+  background-color: #f79489;
+  padding: 0 1.5rem;
+}
+
+.bg-update {
+  background-image: url("../images/getupdate.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 18rem;
+}
+
+.underline {
+  width: 1.5rem;
+  height: 2px;
+  background-color: #000;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=style.css.map */

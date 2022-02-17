@@ -1,0 +1,92 @@
+@import "variables";
+@import "functions";
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none;
+}
+
+.matique-color {
+  color: $matique-color;
+}
+
+.mybg {
+  background-image: url("../images/mybg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+}
+
+.bg-opacity {
+  width: 45%;
+  background-color: rgba(255, 255, 255, 0.761);
+}
+
+.bg-cream {
+  @include typeCosmetic($bg-cream);
+}
+.bg-makeup {
+  @include typeCosmetic($bg-makeup);
+}
+.bg-skincare {
+  @include typeCosmetic($bg-skincare);
+}
+
+.btnsCard {
+  @include buttonoutlinewhite;
+}
+
+.btnsCard:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.gp-btn {
+  @include groupButtons;
+}
+
+.gp-btn:hover {
+  background-color: $matique-color;
+  color: $peach-color;
+  border-color: $matique-color;
+}
+
+.active-btn {
+  background-color: $peach-color;
+  color: #ffffff;
+}
+
+.peach-color {
+  color: $peach-color;
+}
+
+.bg-bodylotion {
+  @include bgSection4($bg-bodylocion);
+}
+
+.bg-whitecream {
+  @include bgSection4($bg-whitecream);
+}
+
+.input-style {
+  @include inputStyle;
+}
+
+.btn-sub-gp {
+  @include btnupdate;
+}
+
+.bg-update {
+  @include bgUpdateSection;
+}
+
+.underline {
+  width: 1.5rem;
+  height: 2px;
+  background-color: #000;
+  margin-top: 10px;
+}
